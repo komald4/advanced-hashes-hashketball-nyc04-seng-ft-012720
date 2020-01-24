@@ -1,23 +1,14 @@
 def game_hash
 
     {
-
-      home: {
-
-        team_name: "Brooklyn Nets",
-
-        colors: ["Black", "White"],
-
+    home: {
+      team_name: "Brooklyn Nets",
+      colors: ["Black", "White"],
         players: [
-
           "Alan Anderson" => {
-
             number: 0,
-
             shoe: 16,
-
             points: 22,
-
             rebounds: 12,
             assists: 12,
             steals: 3,
@@ -54,15 +45,15 @@ def game_hash
             blocks: 8,
             slam_dunks: 5
           },
-          "Jason Terry" => {
-            number: 31,
-            shoe: 15,
-            points: 19,
-            rebounds: 2,
-            assists: 2,
-            steals: 4,
-            blocks: 11,
-            slam_dunks: 1
+          "Komal Dindiyal" => {
+            number: 4,
+            shoe: 9.5,
+            points: 99,
+            rebounds: 92,
+            assists: 92,
+            steals: 94,
+            blocks: 91,
+            slam_dunks: 91
           }
         ]
       },
