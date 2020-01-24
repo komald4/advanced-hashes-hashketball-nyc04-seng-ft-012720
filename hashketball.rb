@@ -46,14 +46,14 @@ def game_hash
             slam_dunks: 5
           },
           "Komal Dindiyal" => {
-            number: 4,
-            shoe: 9.5,
-            points: 99,
-            rebounds: 92,
-            assists: 92,
-            steals: 94,
-            blocks: 91,
-            slam_dunks: 91
+            number: 31,
+            shoe: 15,
+            points: 19,
+            rebounds: 2,
+            assists: 2,
+            steals: 4,
+            blocks: 11,
+            slam_dunks: 1
           }
         ]
       },
