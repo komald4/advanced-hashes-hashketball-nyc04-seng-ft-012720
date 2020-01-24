@@ -27,13 +27,19 @@ def game_hash
 end
 
 
-
-
-
-Alternate code
-def num_points_scored(player_n)
-  player_stats(player_n)[:points]
+def num_points_scored(player_name)
+  game_hash.collect do |location, team_data|
+    if team_data[:players].include?(player_name)
+     return team_data[:players][player_name][:points]
+    end
+  end
 end
+
+
+# Alternate code
+# def num_points_scored(player_n)
+#   player_stats(player_n)[:points]
+# end
 
 
 def shoe_size(player_n)
